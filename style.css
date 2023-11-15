@@ -1,0 +1,51 @@
+header{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+header nav ul li a{
+    margin:  0 8rem;
+    color: blue;
+    font-size: 1.2rem;
+}
+header nav ul li a:hover{
+    border-bottom: 1px solid aliceblue;
+}
+.produtos{
+    margin: 2%;
+}
+.produtos__lista{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.produtos__lista__item{
+    flex: 0 1 calc(30% - 1rem);
+    max-width: 10rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+img{
+    width: 100%;
+}
+.produtos__lista__item__conteudo{
+
+}
+footer{
+    background-color: aquamarine;
+    color: crimson;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p{
+    margin: 0;
+    
+}
